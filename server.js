@@ -4,4 +4,4 @@ http.createServer(function (req, res) {
         'Content-Type': 'text/plain'
     });
     res.end('Hello World\n');
-}).listen(process.env.PORT);
+}).listen(1337);
